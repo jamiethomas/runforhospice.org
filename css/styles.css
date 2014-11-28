@@ -846,6 +846,17 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+.sponsor {
+  padding: 10px;
+  text-align: center;
+}
+
+.sponsor-category-heading {
+  margin-bottom: 30px;
+  padding-top: 10px;
+  border-bottom: 1px solid #abc;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fed136;
