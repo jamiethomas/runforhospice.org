@@ -291,7 +291,7 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(../img/hospice-header-bg-with-logo.jpg);
+  background-image: url(../img/hospice-header-bg-with-logo-2.jpg);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
@@ -333,9 +333,10 @@ header .intro-text .intro-heading-smaller {
   /* line 320, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   header .intro-text {
     padding-top: 300px;
-    padding-bottom: 200px; }
+    padding-bottom: 200px;
+    color: #eee; }
 
-  /* line 325, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 326, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Francois One","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -343,7 +344,7 @@ header .intro-text .intro-heading-smaller {
     font-weight: bold;
     line-height: 40px; }
 
-  /* line 333, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 334, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   header .intro-text .intro-heading {
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -352,7 +353,7 @@ header .intro-text .intro-heading-smaller {
     font-weight: 700;
     line-height: 75px; }
 
-  /* line 342, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 343, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   header .intro-text .intro-heading-smaller {
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -360,21 +361,21 @@ header .intro-text .intro-heading-smaller {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px; } }
-/* line 353, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 354, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .stroke-text {
-  -webkit-text-stroke: 2px black; }
+  -webkit-text-stroke: 2px #0a3581; }
 
-/* line 358, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 359, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section {
   padding: 100px 0; }
 
-/* line 362, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 363, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 40px; }
 
-/* line 368, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 369, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
@@ -384,27 +385,27 @@ section h3.section-subheading {
   font-weight: 400; }
 
 @media (min-width: 768px) {
-  /* line 378, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 379, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   section {
     padding: 150px 0; } }
-/* line 383, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 384, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
 
-/* line 388, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 389, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
 
-/* line 393, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 394, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   margin: 0 auto;
   max-width: 400px; }
 
-/* line 400, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 401, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
@@ -415,11 +416,11 @@ section h3.section-subheading {
   -moz-transition: all ease .5s;
   transition: all ease .5s; }
 
-/* line 411, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 412, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1; }
 
-/* line 415, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 416, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
   top: 50%;
@@ -430,16 +431,16 @@ section h3.section-subheading {
   font-size: 20px;
   color: #fff; }
 
-/* line 426, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 427, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px; }
 
-/* line 430, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 431, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0; }
 
-/* line 435, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 436, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-caption {
   margin: 0 auto;
   padding: 25px;
@@ -447,33 +448,33 @@ section h3.section-subheading {
   text-align: center;
   background-color: #fff; }
 
-/* line 443, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 444, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none; }
 
-/* line 448, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 449, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio .portfolio-item .portfolio-caption p {
   margin: 0;
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   font-style: italic; }
 
-/* line 455, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 456, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 #portfolio * {
   z-index: 2; }
 
 @media (min-width: 767px) {
-  /* line 460, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 461, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
-/* line 465, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 466, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline {
   position: relative;
   padding: 0;
   list-style: none; }
 
-/* line 471, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 472, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline:before {
   content: "";
   position: absolute;
@@ -484,23 +485,23 @@ section h3.section-subheading {
   margin-left: -1.5px;
   background-color: #f1f1f1; }
 
-/* line 482, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 483, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li {
   position: relative;
   margin-bottom: 50px;
   min-height: 50px; }
 
-/* line 488, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 489, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li:before,
 .timeline > li:after {
   content: " ";
   display: table; }
 
-/* line 494, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 495, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li:after {
   clear: both; }
 
-/* line 498, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 499, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li .timeline-panel {
   float: right;
   position: relative;
@@ -508,21 +509,21 @@ section h3.section-subheading {
   padding: 0 20px 0 100px;
   text-align: left; }
 
-/* line 506, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 507, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li .timeline-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0; }
 
-/* line 513, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 514, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li .timeline-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0; }
 
-/* line 520, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 521, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li .timeline-image {
   z-index: 100;
   position: absolute;
@@ -536,233 +537,233 @@ section h3.section-subheading {
   color: #fff;
   background-color: #558ef1; }
 
-/* line 534, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 535, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li .timeline-image h4 {
   margin-top: 12px;
   font-size: 10px;
   line-height: 14px; }
 
-/* line 540, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 541, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left; }
 
-/* line 546, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 547, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li.timeline-inverted > .timeline-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0; }
 
-/* line 553, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 554, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li.timeline-inverted > .timeline-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0; }
 
-/* line 560, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 561, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline > li:last-child {
   margin-bottom: 0; }
 
-/* line 564, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 565, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit; }
 
-/* line 569, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 570, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline .timeline-heading h4.subheading {
   text-transform: none; }
 
-/* line 573, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 574, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
   margin-bottom: 0; }
 
 @media (min-width: 768px) {
-  /* line 579, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 580, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline:before {
     left: 50%; }
 
-  /* line 583, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 584, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li {
     margin-bottom: 100px;
     min-height: 100px; }
 
-  /* line 588, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 589, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-panel {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
     text-align: right; }
 
-  /* line 595, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 596, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-image {
     left: 50%;
     width: 100px;
     height: 100px;
     margin-left: -50px; }
 
-  /* line 602, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 603, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-image h4 {
     margin-top: 16px;
     font-size: 13px;
     line-height: 18px; }
 
-  /* line 608, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 609, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
     text-align: left; } }
 @media (min-width: 992px) {
-  /* line 616, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 617, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li {
     min-height: 150px; }
 
-  /* line 620, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 621, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-panel {
     padding: 0 20px 20px; }
 
-  /* line 624, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 625, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-image {
     width: 150px;
     height: 150px;
     margin-left: -75px; }
 
-  /* line 630, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 631, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-image h4 {
     margin-top: 30px;
     font-size: 18px;
     line-height: 26px; }
 
-  /* line 636, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 637, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px; } }
 @media (min-width: 1200px) {
-  /* line 642, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 643, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li {
     min-height: 170px; }
 
-  /* line 646, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 647, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px; }
 
-  /* line 650, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 651, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-image {
     width: 170px;
     height: 170px;
     margin-left: -85px; }
 
-  /* line 656, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 657, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li .timeline-image h4 {
     margin-top: 40px; }
 
-  /* line 660, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+  /* line 661, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px; } }
-/* line 665, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 666, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
 
-/* line 670, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 671, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .team-member img {
   margin: 0 auto;
   border: 7px solid #fff; }
 
-/* line 675, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 676, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none; }
 
-/* line 681, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 682, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .team-member p {
   margin-top: 0; }
 
-/* line 685, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 686, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 aside.clients img {
   margin: 50px auto; }
 
-/* line 689, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 690, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact {
   background-color: #222;
   background-image: url(../img/map-image.png);
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 696, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 697, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact .section-heading {
   color: #fff; }
 
-/* line 700, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 701, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact .form-group {
   margin-bottom: 25px; }
 
-/* line 704, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 705, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px; }
 
-/* line 709, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 710, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact .form-group input.form-control {
   height: auto; }
 
-/* line 713, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 714, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact .form-group textarea.form-control {
   height: 236px; }
 
-/* line 717, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 718, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact .form-control:focus {
   border-color: #558ef1;
   box-shadow: none; }
 
-/* line 722, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 723, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact::-webkit-input-placeholder {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb; }
 
-/* line 729, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 730, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact:-moz-placeholder {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb; }
 
-/* line 736, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 737, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact::-moz-placeholder {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb; }
 
-/* line 743, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 744, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact:-ms-input-placeholder {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #bbb; }
 
-/* line 750, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 751, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 section#contact .text-danger {
   color: #e74c3c; }
 
-/* line 754, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 755, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 footer {
   padding: 25px 0;
   text-align: center; }
 
-/* line 759, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 760, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 footer span.copyright {
   text-transform: uppercase;
   text-transform: none;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 40px; }
 
-/* line 766, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 767, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: uppercase;
@@ -770,11 +771,11 @@ footer ul.quicklinks {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 40px; }
 
-/* line 774, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 775, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 ul.social-buttons {
   margin-bottom: 0; }
 
-/* line 778, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 779, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 ul.social-buttons li a {
   display: block;
   width: 40px;
@@ -789,20 +790,20 @@ ul.social-buttons li a {
   -moz-transition: all .3s;
   transition: all .3s; }
 
-/* line 793, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 794, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #558ef1; }
 
-/* line 799, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 800, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .btn:focus,
 .btn:active,
 .btn.active,
 .btn:active:focus {
   outline: 0; }
 
-/* line 806, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 807, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .modal-content {
   padding: 100px 0;
   min-height: 100%;
@@ -813,32 +814,32 @@ ul.social-buttons li a:active {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-/* line 817, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 818, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em; }
 
-/* line 822, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 823, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .modal-content p {
   margin-bottom: 30px; }
 
-/* line 826, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 827, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   font-style: italic; }
 
-/* line 833, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 834, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .modal-content ul.list-inline {
   margin-top: 0;
   margin-bottom: 30px; }
 
-/* line 838, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 839, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .modal-content img {
   margin-bottom: 30px; }
 
-/* line 842, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 843, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
@@ -848,11 +849,11 @@ ul.social-buttons li a:active {
   background-color: transparent;
   cursor: pointer; }
 
-/* line 852, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 853, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .close-modal:hover {
   opacity: .3; }
 
-/* line 856, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 857, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .close-modal .lr {
   z-index: 1051;
   width: 1px;
@@ -863,7 +864,7 @@ ul.social-buttons li a:active {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 867, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 868, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .portfolio-modal .close-modal .lr .rl {
   z-index: 1052;
   width: 1px;
@@ -873,35 +874,35 @@ ul.social-buttons li a:active {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-/* line 877, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 878, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .sponsor {
   padding: 10px;
   text-align: center; }
 
-/* line 882, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 883, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 .sponsor-category-heading {
   margin-bottom: 30px;
   padding-top: 10px;
   border-bottom: 1px solid #abc; }
 
-/* line 888, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 889, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 ::-moz-selection {
   text-shadow: none;
   background: #558ef1; }
 
-/* line 893, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 894, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 ::selection {
   text-shadow: none;
   background: #558ef1; }
 
-/* line 898, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 899, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 img::selection {
   background: 0 0; }
 
-/* line 902, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 903, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 img::-moz-selection {
   background: 0 0; }
 
-/* line 906, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
+/* line 907, /Users/JamieThomas/Sites/runforhospice/source/css/styles.scss */
 body {
   webkit-tap-highlight-color: #558ef1; }
