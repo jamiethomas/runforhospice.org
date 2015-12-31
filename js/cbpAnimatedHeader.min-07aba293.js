@@ -8,4 +8,4 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
-var cbpAnimatedHeader=function(){function e(){window.addEventListener("scroll",function(){c||(c=!0,setTimeout(n,250))},!1)}function n(){var e=t();e>=o?classie.add(r,"cbp-af-header-shrink"):classie.remove(r,"cbp-af-header-shrink"),c=!1}function t(){return window.pageYOffset||a.scrollTop}var a=document.documentElement,r=document.querySelector(".navbar-default"),c=!1,o=300;e()}();
+var cbpAnimatedHeader=function(){function e(){window.addEventListener("scroll",function(e){c||(c=!0,setTimeout(n,250))},!1)}function n(){var e=t();e>=o?classie.add(r,"cbp-af-header-shrink"):classie.remove(r,"cbp-af-header-shrink"),c=!1}function t(){return window.pageYOffset||a.scrollTop}var a=document.documentElement,r=document.querySelector(".navbar-default"),c=!1,o=300;e()}();
