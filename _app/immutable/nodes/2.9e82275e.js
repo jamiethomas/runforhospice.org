@@ -47,7 +47,7 @@ import{S as It,i as kt,s as St,e as wr,b as oe,D as Me,h as t,k as r,l as a,n as
 	& the relentless determination” exhibited by the American soldiers he worked non-stop three days and
 	nights sculpting a three-foot tall model out of the only material he could find - a combination of
 	floor and sealing wax. In de Weldon’s hands the wax would be powerfully transformed to convey not just
-	the incredible valor of the 5 Marines and Navy corpsmen - but also embody the spirit & soul of EVERY
+	the incredible valor of the 5 Marines and Navy corpsman - but also embody the spirit & soul of EVERY
 	Marine and American soldier/sailor. It would also become the model and catalyst for the most recognized
 	& visited sculpture of the 20th century and a symbol of America's unwavering commitment to democracy
 	and freedom. Unveiled 70 years ago the US Marine Corps War Memorial is dedicated to the Marine dead
@@ -64,7 +64,7 @@ import{S as It,i as kt,s as St,e as wr,b as oe,D as Me,h as t,k as r,l as a,n as
 	& the relentless determination” exhibited by the American soldiers he worked non-stop three days and
 	nights sculpting a three-foot tall model out of the only material he could find - a combination of
 	floor and sealing wax. In de Weldon’s hands the wax would be powerfully transformed to convey not just
-	the incredible valor of the 5 Marines and Navy corpsmen - but also embody the spirit & soul of EVERY
+	the incredible valor of the 5 Marines and Navy corpsman - but also embody the spirit & soul of EVERY
 	Marine and American soldier/sailor. It would also become the model and catalyst for the most recognized
 	& visited sculpture of the 20th century and a symbol of America's unwavering commitment to democracy
 	and freedom. Unveiled 70 years ago the US Marine Corps War Memorial is dedicated to the Marine dead
