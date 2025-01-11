@@ -337,9 +337,12 @@ section h3.section-subheading {
     font-weight: 400;
 }
 @media (min-width: 768px) {
-    section {
+    /*
+	 * Removed this padding 1/5/2025. Don't think it's necessary for wide screens.
+	section {
         padding: 150px 0;
     }
+	*/
 }
 .service-heading {
     margin: 15px 0;
