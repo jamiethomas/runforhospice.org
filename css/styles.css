@@ -276,7 +276,7 @@ header .intro-text .intro-heading-smaller {
     margin-bottom: 15px;
     text-transform: uppercase;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -802,4 +802,49 @@ img::-moz-selection {
 }
 body {
     webkit-tap-highlight-color: #558ef1;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Scale down headers for mobile */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: calc(1.5rem + 1vw);
+        text-align: center;
+    }
+
+    /* Stack elements vertically */
+    .qr-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Make images responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Adjust button sizes */
+    .btn, .btn-xl {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    /* Reduce excessive padding */
+    section {
+        padding: 50px 0;
+    }
+
+    /* Improve navigation for mobile */
+    .navbar-default .navbar-toggle {
+        background-color: #558ef1;
+        border-radius: 5px;
+    }
 }
